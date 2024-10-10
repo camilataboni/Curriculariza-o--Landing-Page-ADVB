@@ -8,15 +8,15 @@ Você pode acessá-la em https://camilataboni.github.io/curricularizacao-landing
 
 Tecnologias
 
-HTML: Estrutura básica da página.
+HTML: Estrutura básica da página;
 CSS: Estilização e layout responsivo.
 
 
 Como baixar
 
-1- Clone o repositório 
-2- Abra a pasta 
-3- Abra o arquivo no seu navegador 
+1- Clone o repositório; 
+2- Abra a pasta;
+3- Abra o arquivo no seu navegador.
 
 
 Contato
