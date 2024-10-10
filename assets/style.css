@@ -57,7 +57,7 @@ header {
 .button:hover {
     background-color: var(--cor-secundaria);
 }
-          /*CAPA DA PAGINA*/
+
 .titulo {
     position: relative;
 }
@@ -150,7 +150,7 @@ header {
 }
 
 .objetivo img {
-    height: 550px;
+    width: 40vw;
 }
 
 .descricaoObjetivo {
@@ -178,6 +178,17 @@ header {
     color: var(--cor-principal);
 }
 
+.nomeeData {
+    position: absolute;
+    text-align: center;
+    font-size: 14px;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+
 #foto {
     position: absolute;
     width: 120px;
@@ -194,11 +205,11 @@ header {
     
 }
 
-.caixaDeTexto h5 {
+.caixaDeTexto p {
     position: absolute;
     width: 550px;
     left: 50%;
-    top: 52%;
+    top: 48%;
     font-size: 16px;
     text-align: center;
     z-index: 1;
@@ -213,21 +224,6 @@ header {
     left: 50%;
     top: 180px;
     transform: translate(-50%, -50%);
-}
-
-.comentario h2 {
-    position: absolute;
-    left: 33%;
-    top: 22%;
-    transform: translate(-50%, -50%);
-}
-
-.comentario h3 {
-    position: absolute;
-    right: 25%;
-    top: 68%;
-    transform: translate(-50%, -50%);
-
 }
 
 .parceria {
@@ -330,13 +326,14 @@ footer {
  margin: 0 0 10px 0; 
 }
 
-.footer-esquerda h2{
+.footer-esquerda h3{
     font-size: 25px;
-    margin: 10px ;
+    padding-bottom: 10px;
  }
 
 .footer-direita h3 {
     margin: 0 0 10px 0; 
+    font-size: 25px;
 }
 .footer-esquerda p{
     margin: 0 0 10px 0;
@@ -352,3 +349,97 @@ footer {
     height: 24px; 
     margin-right: 10px; 
 }
+
+
+@media screen and (max-width: 932px){
+    
+    .historia {
+        display: block;
+        
+    }
+
+    .historia img {
+        width: 80vw;
+        padding-top: 30px;
+    }
+
+    .parceria{
+        display: block;
+        text-align: center;
+
+    }
+
+    .parceria img {
+        width: 50vw;
+        padding: 30px;
+
+    }
+
+    .descricaoParceria {
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .descricaoParceria h1 {
+        font-size: 34px;
+    }
+
+    .objetivo {
+        display: block;
+
+    }
+
+    .objetivo img {
+        width: 100%;
+    }
+
+    .caixaDeTexto p {
+        width: 80vw;
+        top: 11vh;
+        font-size: 12px;
+        
+    
+    }
+
+    .caixaDeTexto img {
+        width: 90vw;
+        height: 25vh;
+        top: 12vh;
+ 
+    }
+    
+    #foto {
+        width: 8vh;
+        top: 10vh;
+    }
+
+    .comentario {
+        padding-bottom: 50px;
+    }
+
+    .caixaDeTexto p {
+        top: 37%
+    }
+
+    .nomeeData {
+        font-size: 11px;
+        top: 65%;
+    }
+
+    .descricaoHistoria {
+        margin-right: 0px;
+    }
+
+    .descricaoObjetivo {
+        padding: 45px;
+        margin-top: 0px;
+    }
+
+    .footer-esquerda{
+        margin-right: 30px;
+    }
+    
+    
+
+}
+
